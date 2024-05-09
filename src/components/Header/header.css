@@ -1,0 +1,14 @@
+header {
+  background-color: #f7e1a9;
+  .header-cons {
+    height: 24px;
+    width: 24px;
+    border-radius: 35px;
+    background-color: #fbf0d4;
+  }
+  .call-info {
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+  }
+}
