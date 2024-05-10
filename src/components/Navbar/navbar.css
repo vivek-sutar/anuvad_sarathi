@@ -1,0 +1,20 @@
+nav {
+  background-color: white !important;
+  padding: 5px 5%;
+  border-bottom: 1px solid #f7e1a9;
+  -webkit-box-shadow: -1px 17px 11px 0px rgba(0, 0, 0, 0.7);
+  box-shadow:  0px 2px 10px #4949494f;
+  & .logo {
+    width: 150px;
+    height: 60px;
+    object-fit: contain;
+  }
+  & .navbar-nav{
+    &.active{
+        color: aqua;
+    }
+  }
+}
+.nav-link{
+    color: aqua;
+}
