@@ -8,3 +8,50 @@
         }
     }
 }
+
+& .mission-card{
+    width: 505px;
+    height: 228px;
+    background-color:#F8E6FF;
+    border-radius: 20px;
+    
+    & .mission-logo-div{
+        width: 80px;
+        height: 80px;
+        border-radius: 54px;
+        background-color: #FAFAFA;
+        color: #C354F0;
+        & .mission-logo{
+            width: 30.76px;
+            height: 39.86px;
+
+        }
+    }
+
+}
+& .goal-card{
+    width: 505px;
+    height: 228px;
+    background-color:#FFE5EA;
+    border-radius: 20px;
+    
+    & .goal-logo-div{
+        width: 80px;
+        height: 80px;
+        border-radius: 54px;
+        background-color: #FAFAFA;
+        color: #F05470;
+        & .goal-logo{
+            width: 30.76px;
+            height: 39.86px;
+
+        }
+    }
+
+}
+ & .offer-content {
+    & p{
+        font-size: 22px;
+        font-weight: 500;
+    }
+}
