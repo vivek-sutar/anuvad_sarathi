@@ -1,5 +1,6 @@
 & .hero-left{
-   
+    /* padding: 0px,400px; */
+    /* padding-left: 100px; */
     & .hero-left-1{
         & h1{
             font-size: 3.5rem;
