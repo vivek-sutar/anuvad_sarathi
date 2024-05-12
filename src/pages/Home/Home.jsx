@@ -38,35 +38,9 @@ const Home = () => {
             />
           </div>
         </div>
-        {/* <div className="row offer-section">
-          <div className="col-12 col-md-12 col-lg-6">
-            <div className="row mt-5 d-flex flex-column align-items-center">
-              <div className="card mission-card mt-4 d-flex justify-content-center align-items-center flex-row ps-2">
-                <div className="mission-logo-div d-flex align-items-center justify-content-center ms-4">
-                  <IoRocket className="mission-logo" />
-                </div>
-                <div className="flex-wrap">
-                  <h5 className="mission-content ms-2 mt-2 text-wrap text-center flex-grow">
-                    To achieve excellence in product and service quality.
-                  </h5>
-                </div>
-              </div>
-              <div className="card mission-card mt-4 d-flex justify-content-start">
-                <div className="mission-logo d-flex justify-content-center">
-                  <IoRocket />
-                </div>
-                <p className="mission-content text-wrap">
-                  To achieve excellence in product and service quality.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-md-12 col-lg-6">
-            <h1 className="text-start text-primary">What We Offer</h1>
-          </div>
-        </div> */}
+
         <div className="row">
-          <div className="col-12 col-md-12 col-lg-5 col-sm-12 d-flex flex-column gap-5 jsutify-content-center align-items-center text-center pt-5">
+          <div className="col-12 col-md-12 col-lg-5 col-sm-12 d-flex flex-column gap-5 jsutify-content-center align-items-center pt-5">
             <div className="card mt-4 px-5 py-5 mission-card border border-0 d-flex flex-row jsutify-content-center align-items-center">
               <div className="col-md-3 d-flex jsutify-content-center align-items-center">
                 <div className="mission-logo-div d-flex jsutify-content-center align-items-center">
@@ -74,9 +48,9 @@ const Home = () => {
                 </div>
               </div>
               <div className="col-md-9 d-flex jsutify-content-start align-items-start">
-                <h5 className="d-flexc jsutify-content-start align-items-start">
+                <h6 className="d-flexc jsutify-content-start align-items-start">
                   To achieve excellence in product and service quality.
-                </h5>
+                </h6>
               </div>
             </div>
             <div className="card px-5 py-5 goal-card border border-0 d-flex flex-row jsutify-content-center align-items-center">
@@ -86,11 +60,11 @@ const Home = () => {
                 </div>
               </div>
               <div className="col-md-9 d-flex jsutify-content-center align-items-start">
-                <h5 className="d-flexc jsutify-content-center align-items-start">
+                <h6 className="d-flexc jsutify-content-center align-items-start">
                   To transform Indian Law with the power of digital revolution
                   and Provide the highest quality of Legal products and services
                   at most affordable price.
-                </h5>
+                </h6>
               </div>
             </div>
           </div>
@@ -130,6 +104,57 @@ const Home = () => {
                 solutions, we're here to ensure that language is never a barrier
                 to your success.
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid mt-5 px-5">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1 class="text-primary">Why Choose Anuvad Saarathi</h1>
+          </div>
+        </div>
+        <div class="row mt-4 services mx-5 px-5">
+          <div class="col-md-4 mb-4">
+            <div class="card service-card p-5">
+              <div class="service-title-section d-flex justify-content-start align-items-center">
+                <div class="service-title-logo">
+                  <img src="./images/GroupChatLogo.png" alt="" />
+                </div>
+                <h2 class="ms-4">Accessibility</h2>
+              </div>
+              <h5 class="mt-4">
+                Access all central and Maharashtra state acts, Government
+                Resolutions any time
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card service-card p-5">
+              <div class="service-title-section d-flex justify-content-start align-items-center">
+                <div class="service-title-logo">
+                  <img src="./images/GroupChatLogo.png" alt="" />
+                </div>
+                <h2 class="ms-4">Accessibility</h2>
+              </div>
+              <h5 class="mt-4">
+                Access all central and Maharashtra state acts, Government
+                Resolutions any time
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card service-card p-5">
+              <div class="service-title-section d-flex justify-content-start align-items-center">
+                <div class="service-title-logo">
+                  <img src="./images/GroupChatLogo.png" alt="" />
+                </div>
+                <h2 class="ms-4">Accessibility</h2>
+              </div>
+              <h5 class="mt-4">
+                Access all central and Maharashtra state acts, Government
+                Resolutions any time
+              </h5>
             </div>
           </div>
         </div>

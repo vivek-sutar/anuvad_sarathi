@@ -1,57 +1,84 @@
-& .hero-left{
-    /* padding: 0px,400px; */
-    /* padding-left: 100px; */
-    & .hero-left-1{
-        & h1{
-            font-size: 3.5rem;
-            font-weight: 700;
-        }
+& .hero-left {
+  /* padding: 0px,400px; */
+  /* padding-left: 100px; */
+  & .hero-left-1 {
+    & h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
     }
+  }
 }
 
-& .mission-card{
-    width: 505px;
-    height: 228px;
-    background-color:#F8E6FF;
-    border-radius: 20px;
-    
-    & .mission-logo-div{
-        width: 80px;
-        height: 80px;
-        border-radius: 54px;
-        background-color: #FAFAFA;
-        color: #C354F0;
-        & .mission-logo{
-            width: 30.76px;
-            height: 39.86px;
+& .mission-card {
+  width: 505px;
+  height: 228px;
+  background-color: #f8e6ff;
+  border-radius: 20px;
 
-        }
+  & .mission-logo-div {
+    width: 80px;
+    height: 80px;
+    border-radius: 54px;
+    background-color: #fafafa;
+    color: #c354f0;
+    & .mission-logo {
+      width: 30.76px;
+      height: 39.86px;
     }
-
+  }
 }
-& .goal-card{
-    width: 505px;
-    height: 228px;
-    background-color:#FFE5EA;
-    border-radius: 20px;
-    
-    & .goal-logo-div{
-        width: 80px;
-        height: 80px;
-        border-radius: 54px;
-        background-color: #FAFAFA;
-        color: #F05470;
-        & .goal-logo{
-            width: 30.76px;
-            height: 39.86px;
+& .goal-card {
+  width: 505px;
+  height: 228px;
+  background-color: #ffe5ea;
+  border-radius: 20px;
 
-        }
+  & .goal-logo-div {
+    width: 80px;
+    height: 80px;
+    border-radius: 54px;
+    background-color: #fafafa;
+    color: #f05470;
+    & .goal-logo {
+      width: 30.76px;
+      height: 39.86px;
     }
-
+  }
 }
- & .offer-content {
-    & p{
-        font-size: 22px;
-        font-weight: 500;
+& .offer-content {
+  & p {
+    font-size: 22px;
+    font-weight: 500;
+  }
+}
+.services {
+  .service-card {
+    border-radius: 40px;
+    transition: border-color 0.3s ease;
+    &:hover {
+      border: 5px solid #c1d4f0;
     }
+    .service-title-section {
+      .service-title-logo {
+        width: 120px;
+        height: 120px;
+        border-radius: 60px;
+        background-color: #dfecff;
+        color: #0856c3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          max-width: 100%;
+          max-height: 100%;
+        }
+      }
+      h2 {
+        margin-left: 1rem; // Adjust margin between logo and title
+      }
+    }
+    p {
+      margin-top: 1rem; // Adjust margin between title and description
+    }
+  }
 }
